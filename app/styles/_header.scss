@@ -1,0 +1,26 @@
+// NAVIGATION: TOP
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: $c-darkslategrey;
+  color: $c-white;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin: -$m-gutter;
+  font-size: 1.25rem;
+
+  &__item  {
+    margin: $m-gutter;
+
+    > a {
+      color: $c-white;
+      text-decoration: none;
+    }
+  }
+}
