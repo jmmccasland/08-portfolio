@@ -1,26 +1,22 @@
-// NAVIGATION: TOP
+// NAVIGATION
+// Nav Component Styles
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: $m-gutter;
   background: $c-darkslategrey;
   color: $c-white;
 }
 
 .nav-list {
   display: flex;
-  justify-content: center;
-  margin: -$m-gutter;
+  align-items: center;
+  margin: -$m-gutter / 2;
   font-size: 1.25rem;
 
-  &__item  {
-    margin: $m-gutter;
-
-    > a {
-      color: $c-white;
-      text-decoration: none;
-    }
+  &__item {
+    margin: $m-gutter / 2;
   }
 }
