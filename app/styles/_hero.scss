@@ -1,0 +1,21 @@
+
+// THESE STYLES ALL REFER TO THE HERO ELEMENT THAT IS PRESENT IN INDEX.HTML and CITY.HTML
+// NO VIDEO THIS TIME. SORRY.
+.section-hero {
+  background: $c-heroblue;
+}
+
+.hero {
+  padding: 5rem 0;
+  text-align: center;
+
+  &__header {
+    color: $c-black;
+    text-transform: uppercase;
+  }
+
+  &__subheader {
+    color: $c-white;
+    text-transform: uppercase;
+  }
+}

@@ -7,6 +7,7 @@
 
 // COLORS
 $c-darkslategrey: #2c3e50;
+$c-heroblue: #2980b9;
 $c-white: #fefefe;
 $c-black: #000;
 
@@ -14,29 +15,15 @@ $c-black: #000;
 // MEASUREMENTS
 $m-gutter: 1rem;
 
-.section-hero {
-    background: #2980b9;
-}
 
-.hero {
-  padding: 5rem 0;
 
-  text-align: center;
 
-  &__header {
-    color: $c-black;
-    text-transform: uppercase;
-  }
 
-  &__subheader {
-    color: $c-white;
-    text-transform: uppercase;
-  }
-}
 
 
 // IMPORTS
 @import 'box-sizing';
 @import 'resets';
-@import 'header';
 @import 'layout';
+@import 'header';
+@import 'hero';
