@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: $m-gutter;
+  padding: 0 $m-gutter;
   background: $c-darkslategrey;
   color: $c-white;
 }
@@ -13,10 +13,10 @@
 .nav-list {
   display: flex;
   align-items: center;
-  margin: -$m-gutter / 2;
+  margin: -$m-gutter;
   font-size: 1.25rem;
 
   &__item {
-    margin: $m-gutter / 2;
+    margin: $m-gutter;
   }
 }
