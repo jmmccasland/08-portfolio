@@ -15,6 +15,15 @@ $c-black: #000;
 // MEASUREMENTS
 $m-gutter: 1rem;
 
+// IMPORTS
+@import 'box-sizing';
+@import 'resets';
+@import 'layout';
+@import 'header';
+@import 'hero';
+
+
+
 .section-title {
   padding: 5rem 0;
   text-align: center;
@@ -26,27 +35,16 @@ $m-gutter: 1rem;
   justify-content: space-between;
 
   &__info {
-    flex-shrink: 0;
-    flex-basis: 75%;
     margin: 0 $m-gutter;
   }
 
   &__img {
-    flex-basis: 25%;
-    // width: 25%;
-    flex-shrink: 1;
+    height: 12.5rem;
     margin: 0 $m-gutter;
   }
 
+  &-reverse {
+    flex-direction: row-reverse;
+  }
+
 }
-
-
-
-
-
-// IMPORTS
-@import 'box-sizing';
-@import 'resets';
-@import 'layout';
-@import 'header';
-@import 'hero';
