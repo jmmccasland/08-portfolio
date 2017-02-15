@@ -1,15 +1,15 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 
 
 // COLORS
 $c-darkslategrey: #2c3e50;
 $c-heroblue: #2980b9;
 $c-white: #fefefe;
-$c-black: #000;
+$c-black: #222;
 
 
 // MEASUREMENTS
@@ -21,30 +21,22 @@ $m-gutter: 1rem;
 @import 'layout';
 @import 'header';
 @import 'hero';
+@import 'projects';
 
 
-
-.section-title {
-  padding: 5rem 0;
-  text-align: center;
+.section-footer {
+  background: $c-black;
 }
 
-.project {
+footer {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  max-width: 35rem;
+  margin: 0 auto;
+  color: $c-white;
+}
 
-  &__info {
-    margin: 0 $m-gutter;
-  }
-
-  &__img {
-    height: 12.5rem;
-    margin: 0 $m-gutter;
-  }
-
-  &-reverse {
-    flex-direction: row-reverse;
-  }
-
+.social {
+  color: $c-white;
+  font-size: 3rem;
 }

@@ -1,0 +1,24 @@
+
+.section-title {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__info {
+    margin: 0 $m-gutter;
+  }
+
+  &__img {
+    height: 15rem;
+    margin: 0 $m-gutter;
+  }
+
+  &-reverse {
+    flex-direction: row-reverse;
+  }
+}
