@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>08-portfolio</title>
   <link rel="stylesheet" href="/app.css">
 </head>
+
 <body>
-  Some changeds here, boo.
+  <nav class="nav">
+      <div class="nav__left">
+        <h1 class="logo">Jm McCasland</h1>
+      </div>
+      <!--/.nav__left-->
+
+      <div class="nav__right">
+        <ul class="nav-list">
+          <li class="nav-list__item"><a href="./index.html">Portfolio</a></li>
+          <li class="nav-list__item"><a href="./blog.html">Blog</a></li>
+          <li class="nav-list__item"><a href="./city.html">City</a></li>
+        </ul>
+        <!--/.nav-list-->
+      </div>
+      <!--/.nav__right-->
+  </nav>
+  <!--/.nav-->
+
+
+  <div class="section section-hero">
+    <div class="container">
+      <div class="hero">
+        <h2 class="hero__header">Student at the Iron Yard</h2>
+        <h3 class="hero__subheader">As a student, I get to learn from RYAN, the best instructor ever.</h3>
+      </div>
+      <!-- /.hero -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.section -->
+
+  <main class="section">
+  <h3 class="section-title">My Projects</h3>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <div class="project">
+
+            <div class="project__info">
+              <h4 class="project__info-title">Heflin Construction</h4>
+              <p class="project__info-text">
+              Built for general contractors, Heflin Construction, in Hendersonville, TN. I designed and developed this site as a portfolio for the company to showcase their craftsmanship. Its currently still in development as we wait for photos and content, however it was my favorite project I worked on prior to attending the Iron Yard and I can't wait to finish it after I graduate.
+              </p>
+            </div><!--/.project__info-->
+
+            <img src="./images/hefco.png" alt="" class="project__img">
+          </div>
+          <!--/.project-->
+        </div>
+        <!--/.grid__item-->
+
+        <div class="grid__item">
+          <div class="project  project-reverse">
+
+            <div class="project__info">
+              <h4 class="project__info-title">dogYears()</h4>
+              <p class="project__info-text">
+              DogYears, appropriately spelled dogYears() refering to the function used in development, is a single page javascript web app I developed during prework for the IronYard. I spent several days writing JS but never actually connected any interaction to a user interface. Enter dogYears(), an interactive web app that allows to instantly convert your age in human years, to dog years!
+              </p>
+            </div><!--/.project__info-->
+
+            <img src="./images/dogyears.png" alt="" class="project__img">
+          </div>
+          <!--/.project-->
+        </div>
+        <!--/.grid__item-->
+
+        <div class="grid__item">
+          <div class="project">
+
+            <div class="project__info">
+              <h4 class="project__info-title">Surf and Paddle</h4>
+              <p class="project__info-text">
+              Surf and Paddle is an Iron Yard mock blog site for a surfing company that requires the development of a multi-column layout using flexbox. Its a fun project that requires a few neat tricks using position absolute and overlays. Its also the first project I've developed using SASS, which is awesome btw.
+              </p>
+            </div><!--/.project__info-->
+
+            <img src="./images/surfandpaddle.png" alt="" class="project__img">
+          </div>
+          <!--/.project-->
+        </div>
+        <!--/.grid__item-->
+
+      </div>
+      <!--/.grid-->
+    </div>
+    <!--/.container-->
+  </main>
+  <!--/.section-->
+
+  <div class="section section-footer">
+    <div class="container">
+        <footer>
+        <span class="social fa fa-facebook"></span>
+        <span class="social fa fa-instagram"></span>
+        <span class="social fa fa-twitter"></span>
+        <span class="social fa fa-linkedin"></span>
+        </footer>
+      </div>
+  </div>
+
+
   <script src="/app.js" charset="utf-8"></script>
 </body>
+
 </html>

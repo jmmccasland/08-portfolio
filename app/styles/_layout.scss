@@ -1,0 +1,29 @@
+
+//  These are my layout styles, yeah, they reusable. You know, in case you need em L8R.
+
+
+// DOUBLE CONTAAAAAAIIIIINNNNNERRRRRR!!!!!!
+// https://www.youtube.com/watch?v=OQSNhk5ICTI&ab_channel=Yosemitebear62
+
+.section {
+  padding: $m-gutter;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 1rem - 1rem);
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+}

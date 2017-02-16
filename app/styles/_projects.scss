@@ -1,0 +1,37 @@
+
+.section-title {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__info {
+    margin: 0 $m-gutter;
+  }
+
+  &__img {
+    height: 13rem;
+    margin: 0 $m-gutter;
+  }
+
+  &-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+// Single Column grid anything smaller than tablet.
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+
+    &__img {
+      width: 100%;
+      height: auto;
+      margin-top: 2rem;
+    }
+  }
+}
