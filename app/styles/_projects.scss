@@ -22,3 +22,16 @@
     flex-direction: row-reverse;
   }
 }
+
+// Single Column grid anything smaller than tablet.
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+
+    &__img {
+      width: 100%;
+      height: auto;
+      margin-top: 2rem;
+    }
+  }
+}
