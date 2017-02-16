@@ -25,6 +25,7 @@ $m-gutter: 1rem;
 
 
 .section-footer {
+  margin: 2rem 0 0;
   background: $c-black;
 }
 
@@ -32,11 +33,12 @@ footer {
   display: flex;
   justify-content: space-around;
   max-width: 35rem;
-  margin: 0 auto;
+  margin: auto;
+  padding: 2rem;
   color: $c-white;
 }
 
 .social {
   color: $c-white;
-  font-size: 3rem;
+  font-size: 2rem;
 }
